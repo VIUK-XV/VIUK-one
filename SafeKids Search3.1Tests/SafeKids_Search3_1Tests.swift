@@ -2,7 +2,7 @@
 //  SafeKids_Search3_1Tests.swift
 //  SafeKids Search3.1Tests
 //
-//  Created by 日隈奏斗 on 2025/11/21.
+//  Created by sirokumaon 2025/11/21.
 //
 
 import Testing
