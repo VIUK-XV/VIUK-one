@@ -132,9 +132,8 @@ xcodebuild test -scheme "SafeKids Search3.1UITests"
 
 ## 📦 バージョン情報
 - **バージョン**: 1.0
-- **作成者**: 日隈奏斗 (Hayakuma Soto)
 - **作成日**: 2025年11月21日
-- **最終更新**: 2026年5月21日
+- **最終更新**: 2026年5月30日
 
 ## 🤝 貢献ガイド
 
@@ -210,7 +209,6 @@ xcodebuild test -scheme "SafeKids Search3.1UITests"
 
 ## 📞 連絡先
 
-- **開発者**: 日隈奏斗
 - **GitHub**: [@VIUK-XV](https://github.com/VIUK-XV)
 - **リポジトリ**: [VIUK-XV/VIUK-one](https://github.com/VIUK-XV/VIUK-one)
 
