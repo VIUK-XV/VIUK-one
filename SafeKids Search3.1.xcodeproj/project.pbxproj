@@ -6,27 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		50F0A0102FBC100100765211 /* LiteRTLM in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 50F0A0122FBC100100765211 /* LiteRTLM */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5050CD232ED06EA400765211 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5050CD0D2ED06EA100765211 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5050CD142ED06EA100765211;
-			remoteInfo = "SafeKids Search3.1";
+			remoteInfo = "VIUK One";
 		};
 		5050CD2D2ED06EA400765211 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5050CD0D2ED06EA100765211 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5050CD142ED06EA100765211;
-			remoteInfo = "SafeKids Search3.1";
+			remoteInfo = "VIUK One";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5050CD152ED06EA100765211 /* SafeKids Search3.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafeKids Search3.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5050CD222ED06EA400765211 /* SafeKids Search3.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SafeKids Search3.1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5050CD2C2ED06EA400765211 /* SafeKids Search3.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SafeKids Search3.1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5050CD152ED06EA100765211 /* VIUK One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIUK One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5050CD222ED06EA400765211 /* VIUK OneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIUK OneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5050CD2C2ED06EA400765211 /* VIUK OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIUK OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F0A0012FBC000100765211 /* LocalBuildCache.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LocalBuildCache.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F0A0102FBC100100765211 /* LiteRTLM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +81,7 @@
 		5050CD0C2ED06EA100765211 = {
 			isa = PBXGroup;
 			children = (
+				50F0A0012FBC000100765211 /* LocalBuildCache.xcconfig */,
 				5050CD172ED06EA100765211 /* SafeKids Search3.1 */,
 				5050CD252ED06EA400765211 /* SafeKids Search3.1Tests */,
 				5050CD2F2ED06EA400765211 /* SafeKids Search3.1UITests */,
@@ -85,9 +92,9 @@
 		5050CD162ED06EA100765211 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5050CD152ED06EA100765211 /* SafeKids Search3.1.app */,
-				5050CD222ED06EA400765211 /* SafeKids Search3.1Tests.xctest */,
-				5050CD2C2ED06EA400765211 /* SafeKids Search3.1UITests.xctest */,
+				5050CD152ED06EA100765211 /* VIUK One.app */,
+				5050CD222ED06EA400765211 /* VIUK OneTests.xctest */,
+				5050CD2C2ED06EA400765211 /* VIUK OneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,13 +102,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5050CD142ED06EA100765211 /* SafeKids Search3.1 */ = {
+		5050CD142ED06EA100765211 /* VIUK One */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5050CD362ED06EA400765211 /* Build configuration list for PBXNativeTarget "SafeKids Search3.1" */;
+			buildConfigurationList = 5050CD362ED06EA400765211 /* Build configuration list for PBXNativeTarget "VIUK One" */;
 			buildPhases = (
 				5050CD112ED06EA100765211 /* Sources */,
 				5050CD122ED06EA100765211 /* Frameworks */,
 				5050CD132ED06EA100765211 /* Resources */,
+				50F0A0022FBC000100765211 /* Bundle Local AI Runtime */,
 			);
 			buildRules = (
 			);
@@ -110,16 +118,17 @@
 			fileSystemSynchronizedGroups = (
 				5050CD172ED06EA100765211 /* SafeKids Search3.1 */,
 			);
-			name = "SafeKids Search3.1";
+			name = "VIUK One";
 			packageProductDependencies = (
+				50F0A0122FBC100100765211 /* LiteRTLM */,
 			);
-			productName = "SafeKids Search3.1";
-			productReference = 5050CD152ED06EA100765211 /* SafeKids Search3.1.app */;
+			productName = "VIUK One";
+			productReference = 5050CD152ED06EA100765211 /* VIUK One.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5050CD212ED06EA400765211 /* SafeKids Search3.1Tests */ = {
+		5050CD212ED06EA400765211 /* VIUK OneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5050CD392ED06EA400765211 /* Build configuration list for PBXNativeTarget "SafeKids Search3.1Tests" */;
+			buildConfigurationList = 5050CD392ED06EA400765211 /* Build configuration list for PBXNativeTarget "VIUK OneTests" */;
 			buildPhases = (
 				5050CD1E2ED06EA400765211 /* Sources */,
 				5050CD1F2ED06EA400765211 /* Frameworks */,
@@ -133,16 +142,16 @@
 			fileSystemSynchronizedGroups = (
 				5050CD252ED06EA400765211 /* SafeKids Search3.1Tests */,
 			);
-			name = "SafeKids Search3.1Tests";
+			name = "VIUK OneTests";
 			packageProductDependencies = (
 			);
-			productName = "SafeKids Search3.1Tests";
-			productReference = 5050CD222ED06EA400765211 /* SafeKids Search3.1Tests.xctest */;
+			productName = "VIUK OneTests";
+			productReference = 5050CD222ED06EA400765211 /* VIUK OneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5050CD2B2ED06EA400765211 /* SafeKids Search3.1UITests */ = {
+		5050CD2B2ED06EA400765211 /* VIUK OneUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5050CD3C2ED06EA400765211 /* Build configuration list for PBXNativeTarget "SafeKids Search3.1UITests" */;
+			buildConfigurationList = 5050CD3C2ED06EA400765211 /* Build configuration list for PBXNativeTarget "VIUK OneUITests" */;
 			buildPhases = (
 				5050CD282ED06EA400765211 /* Sources */,
 				5050CD292ED06EA400765211 /* Frameworks */,
@@ -156,11 +165,11 @@
 			fileSystemSynchronizedGroups = (
 				5050CD2F2ED06EA400765211 /* SafeKids Search3.1UITests */,
 			);
-			name = "SafeKids Search3.1UITests";
+			name = "VIUK OneUITests";
 			packageProductDependencies = (
 			);
-			productName = "SafeKids Search3.1UITests";
-			productReference = 5050CD2C2ED06EA400765211 /* SafeKids Search3.1UITests.xctest */;
+			productName = "VIUK OneUITests";
+			productReference = 5050CD2C2ED06EA400765211 /* VIUK OneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -171,10 +180,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2610;
-				LastUpgradeCheck = 2610;
+				LastUpgradeCheck = 2650;
 				TargetAttributes = {
 					5050CD142ED06EA100765211 = {
 						CreatedOnToolsVersion = 26.1.1;
+						LastSwiftMigration = 2610;
 					};
 					5050CD212ED06EA400765211 = {
 						CreatedOnToolsVersion = 26.1.1;
@@ -195,14 +205,17 @@
 			);
 			mainGroup = 5050CD0C2ED06EA100765211;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				50F0A0112FBC100100765211 /* XCLocalSwiftPackageReference "ThirdParty/LiteRT-LM" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5050CD162ED06EA100765211 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5050CD142ED06EA100765211 /* SafeKids Search3.1 */,
-				5050CD212ED06EA400765211 /* SafeKids Search3.1Tests */,
-				5050CD2B2ED06EA400765211 /* SafeKids Search3.1UITests */,
+				5050CD142ED06EA100765211 /* VIUK One */,
+				5050CD212ED06EA400765211 /* VIUK OneTests */,
+				5050CD2B2ED06EA400765211 /* VIUK OneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +244,30 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50F0A0022FBC000100765211 /* Bundle Local AI Runtime */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(PROJECT_DIR)/SafeKids Search3.1/AI/LocalRuntime/libssl.3.dylib",
+				"$(PROJECT_DIR)/SafeKids Search3.1/AI/LocalRuntime/libcrypto.3.dylib",
+			);
+			name = "Bundle Local AI Runtime";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -euo pipefail\nAPP_BUNDLE=\"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\"\nif [[ \"${PLATFORM_NAME:-}\" != \"macosx\" ]]; then\n  rm -f \"$APP_BUNDLE/llama-cli\" \\\n        \"$APP_BUNDLE/llama-server\" \\\n        \"$APP_BUNDLE/llama-mtmd-cli\" \\\n        \"$APP_BUNDLE/llama-cli.source-revision\" \\\n        \"$APP_BUNDLE/libssl.3.dylib\" \\\n        \"$APP_BUNDLE/libcrypto.3.dylib\"\n  xattr -cr \"$APP_BUNDLE\" 2>/dev/null || true\n  exit 0\nfi\nSRC_RUNTIME=\"${PROJECT_DIR}/SafeKids Search3.1/AI/LocalRuntime\"\nAPP_RESOURCES=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\nAPP_MACOS=\"${TARGET_BUILD_DIR}/${EXECUTABLE_FOLDER_PATH}\"\nmkdir -p \"$APP_RESOURCES\" \"$APP_MACOS\"\ncp -fX \"$SRC_RUNTIME/libssl.3.dylib\" \"$APP_RESOURCES/libssl.3.dylib\"\ncp -fX \"$SRC_RUNTIME/libcrypto.3.dylib\" \"$APP_RESOURCES/libcrypto.3.dylib\"\ncp -fX \"$SRC_RUNTIME/libssl.3.dylib\" \"$APP_MACOS/libssl.3.dylib\"\ncp -fX \"$SRC_RUNTIME/libcrypto.3.dylib\" \"$APP_MACOS/libcrypto.3.dylib\"\nxattr -cr \"$APP_BUNDLE\" 2>/dev/null || true\nif [[ \"${CODE_SIGNING_ALLOWED:-NO}\" == \"YES\" && -n \"${EXPANDED_CODE_SIGN_IDENTITY:-}\" ]]; then\n  /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" --timestamp=none \"$APP_RESOURCES/libssl.3.dylib\" \"$APP_RESOURCES/libcrypto.3.dylib\" \"$APP_MACOS/libssl.3.dylib\" \"$APP_MACOS/libcrypto.3.dylib\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5050CD112ED06EA100765211 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,12 +295,12 @@
 /* Begin PBXTargetDependency section */
 		5050CD242ED06EA400765211 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5050CD142ED06EA100765211 /* SafeKids Search3.1 */;
+			target = 5050CD142ED06EA100765211 /* VIUK One */;
 			targetProxy = 5050CD232ED06EA400765211 /* PBXContainerItemProxy */;
 		};
 		5050CD2E2ED06EA400765211 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5050CD142ED06EA100765211 /* SafeKids Search3.1 */;
+			target = 5050CD142ED06EA100765211 /* VIUK One */;
 			targetProxy = 5050CD2D2ED06EA400765211 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -271,8 +308,10 @@
 /* Begin XCBuildConfiguration section */
 		5050CD342ED06EA400765211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F0A0012FBC000100765211 /* LocalBuildCache.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=macosx*]" = arm64;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -280,6 +319,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -303,11 +343,13 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 34CN68272C;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=macosx*]" = x86_64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -326,15 +368,20 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SHARED_PRECOMPS_DIR = "$(PROJECT_DIR)/.xcode-cache/SharedPrecompiledHeaders";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		5050CD352ED06EA400765211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F0A0012FBC000100765211 /* LocalBuildCache.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=macosx*]" = arm64;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -342,6 +389,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -365,11 +413,13 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 34CN68272C;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=macosx*]" = x86_64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -381,23 +431,69 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SHARED_PRECOMPS_DIR = "$(PROJECT_DIR)/.xcode-cache/SharedPrecompiledHeaders";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
 			};
 			name = Release;
 		};
 		5050CD372ED06EA400765211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F0A0012FBC000100765211 /* LocalBuildCache.xcconfig */;
 			buildSettings = {
+				"ARCHS[sdk=macosx*]" = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
+				"CODE_SIGNING_ALLOWED[sdk=iphoneos*]" = YES;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = "";
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "VIUKOne-macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 34CN68272C;
 				ENABLE_APP_SANDBOX = YES;
+				"ENABLE_APP_SANDBOX[sdk=macosx*]" = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
+				"EXCLUDED_ARCHS[sdk=macosx*]" = x86_64;
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*]" = (
+					libssl.3.dylib,
+					libcrypto.3.dylib,
+					"llama-cli",
+					"llama-server",
+					"llama-mtmd-cli",
+					"llama-cli.source-revision",
+				);
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = (
+					libssl.3.dylib,
+					libcrypto.3.dylib,
+					"llama-cli",
+					"llama-server",
+					"llama-mtmd-cli",
+					"llama-cli.source-revision",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				"HEADER_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/include",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/ggml/include",
+				);
+				INFOPLIST_FILE = "SafeKids-Search3-1-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VIUK One";
+				INFOPLIST_KEY_CFBundleName = "VIUK One";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "ネット検索のため";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "VIUK One Map で移動中も継続してルート案内を行うため";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "VIUK One Map で現在地からルート案内や周辺検索を行うため";
+				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "ネット検索のため";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -408,40 +504,127 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/build-mac/src",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/build-mac/ggml/src",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/build-mac/ggml/src/ggml-metal",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/build-mac/ggml/src/ggml-blas",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[sdk=macosx*]" = (
+					"$(inherited)",
+					"-lllama",
+					"-lggml",
+					"-lggml-base",
+					"-lggml-cpu",
+					"-lggml-metal",
+					"-lggml-blas",
+					"-lc++",
+					"-framework",
+					Metal,
+					"-framework",
+					Accelerate,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "VIUK-app.SafeKids-Search3-1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.viuk.VIUKOne;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.viuk.safeKidsSearch;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=xros*]" = "viuk-12";
+				PRODUCT_NAME = "VIUK One";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) VIUK_ENABLE_LITERTLM_NATIVE USE_LITERTLM";
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
+				"SWIFT_OBJC_BRIDGING_HEADER[sdk=macosx*]" = "SafeKids Search3.1/AI/LocalRuntimeEmbedded/LocalAssistantEmbeddedRuntime-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 1.3;
 			};
 			name = Debug;
 		};
 		5050CD382ED06EA400765211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F0A0012FBC000100765211 /* LocalBuildCache.xcconfig */;
 			buildSettings = {
+				"ARCHS[sdk=macosx*]" = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = "";
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = "VIUKOne-macOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 34CN68272C;
 				ENABLE_APP_SANDBOX = YES;
+				"ENABLE_APP_SANDBOX[sdk=macosx*]" = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
+				"EXCLUDED_ARCHS[sdk=macosx*]" = x86_64;
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*]" = (
+					libssl.3.dylib,
+					libcrypto.3.dylib,
+					"llama-cli",
+					"llama-server",
+					"llama-mtmd-cli",
+					"llama-cli.source-revision",
+				);
+				"EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*]" = (
+					libssl.3.dylib,
+					libcrypto.3.dylib,
+					"llama-cli",
+					"llama-server",
+					"llama-mtmd-cli",
+					"llama-cli.source-revision",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				"HEADER_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/include",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/ggml/include",
+				);
+				INFOPLIST_FILE = "SafeKids-Search3-1-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "VIUK One";
+				INFOPLIST_KEY_CFBundleName = "VIUK One";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "ネット検索のため";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "VIUK One Map で移動中も継続してルート案内を行うため";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "VIUK One Map で現在地からルート案内や周辺検索を行うため";
+				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "ネット検索のため";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -452,34 +635,84 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 26.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+					"$(PROJECT_DIR)/SafeKids\\ Search3.1/AI/LocalRuntime",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/build-mac/src",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/build-mac/ggml/src",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/build-mac/ggml/src/ggml-metal",
+					"$(PROJECT_DIR)/ThirdParty/llama.cpp/build-mac/ggml/src/ggml-blas",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[sdk=macosx*]" = (
+					"$(inherited)",
+					"-lllama",
+					"-lggml",
+					"-lggml-base",
+					"-lggml-cpu",
+					"-lggml-metal",
+					"-lggml-blas",
+					"-lc++",
+					"-framework",
+					Metal,
+					"-framework",
+					Accelerate,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "VIUK-app.SafeKids-Search3-1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.viuk.VIUKOne;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.viuk.safeKidsSearch;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=xros*]" = "viuk-12";
+				PRODUCT_NAME = "VIUK One";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) VIUK_ENABLE_LITERTLM_NATIVE USE_LITERTLM";
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
+				"SWIFT_OBJC_BRIDGING_HEADER[sdk=macosx*]" = "SafeKids Search3.1/AI/LocalRuntimeEmbedded/LocalAssistantEmbeddedRuntime-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 26.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 1.3;
 			};
 			name = Release;
 		};
 		5050CD3A2ED06EA400765211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F0A0012FBC000100765211 /* LocalBuildCache.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_STYLE[sdk=macosx*]" = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 34CN68272C;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
@@ -491,21 +724,28 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeKids Search3.1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SafeKids Search3.1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIUK One.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VIUK One";
 				XROS_DEPLOYMENT_TARGET = 26.1;
 			};
 			name = Debug;
 		};
 		5050CD3B2ED06EA400765211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F0A0012FBC000100765211 /* LocalBuildCache.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_STYLE[sdk=macosx*]" = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 34CN68272C;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
@@ -517,20 +757,27 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeKids Search3.1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SafeKids Search3.1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIUK One.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VIUK One";
 				XROS_DEPLOYMENT_TARGET = 26.1;
 			};
 			name = Release;
 		};
 		5050CD3D2ED06EA400765211 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F0A0012FBC000100765211 /* LocalBuildCache.xcconfig */;
 			buildSettings = {
+				CLANG_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_STYLE[sdk=macosx*]" = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 34CN68272C;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
@@ -542,20 +789,27 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "SafeKids Search3.1";
+				TEST_TARGET_NAME = "VIUK One";
 				XROS_DEPLOYMENT_TARGET = 26.1;
 			};
 			name = Debug;
 		};
 		5050CD3E2ED06EA400765211 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F0A0012FBC000100765211 /* LocalBuildCache.xcconfig */;
 			buildSettings = {
+				CLANG_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_STYLE[sdk=macosx*]" = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 34CN68272C;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
@@ -567,10 +821,11 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_MODULE_CACHE_PATH = "$(PROJECT_DIR)/.xcode-cache/ModuleCache";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = "SafeKids Search3.1";
+				TEST_TARGET_NAME = "VIUK One";
 				XROS_DEPLOYMENT_TARGET = 26.1;
 			};
 			name = Release;
@@ -587,7 +842,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5050CD362ED06EA400765211 /* Build configuration list for PBXNativeTarget "SafeKids Search3.1" */ = {
+		5050CD362ED06EA400765211 /* Build configuration list for PBXNativeTarget "VIUK One" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5050CD372ED06EA400765211 /* Debug */,
@@ -596,7 +851,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5050CD392ED06EA400765211 /* Build configuration list for PBXNativeTarget "SafeKids Search3.1Tests" */ = {
+		5050CD392ED06EA400765211 /* Build configuration list for PBXNativeTarget "VIUK OneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5050CD3A2ED06EA400765211 /* Debug */,
@@ -605,7 +860,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5050CD3C2ED06EA400765211 /* Build configuration list for PBXNativeTarget "SafeKids Search3.1UITests" */ = {
+		5050CD3C2ED06EA400765211 /* Build configuration list for PBXNativeTarget "VIUK OneUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5050CD3D2ED06EA400765211 /* Debug */,
@@ -615,6 +870,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		50F0A0112FBC100100765211 /* XCLocalSwiftPackageReference "ThirdParty/LiteRT-LM" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "ThirdParty/LiteRT-LM";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		50F0A0122FBC100100765211 /* LiteRTLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50F0A0112FBC100100765211 /* XCLocalSwiftPackageReference "ThirdParty/LiteRT-LM" */;
+			productName = LiteRTLM;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5050CD0D2ED06EA100765211 /* Project object */;
 }
